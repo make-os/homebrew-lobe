@@ -2,16 +2,16 @@
 class Lobe < Formula
   desc ""
   homepage "https://makeos.org/"
-  version "0.0.14"
+  version "0.0.15"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/make-os/lobe/releases/download/v0.0.14/lobe_0.0.14_Darwin_x86_64.tar.gz"
-    sha256 "86d2fe51113f2d917e0ee3415586ca321ccc779544fba7f5e28d0a47d23cf3d3"
+    url "https://github.com/make-os/lobe/releases/download/v0.0.15/lobe_0.0.15_Darwin_x86_64.tar.gz"
+    sha256 "1db4dbe8d2a2a8ab848b0a1dbe0d5291a45455c76e0e96475ed0f5510a90c5bf"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/make-os/lobe/releases/download/v0.0.14/lobe_0.0.14_Linux_x86_64.tar.gz"
-      sha256 "9d9eaacd029a58d860375080cf42bbf9373cc43f9e5f58c5a82d1d80424d1f5f"
+      url "https://github.com/make-os/lobe/releases/download/v0.0.15/lobe_0.0.15_Linux_x86_64.tar.gz"
+      sha256 "b3cb3a0573d6bdc9ffbec90d78aea699c1309efda7d8f958b07bd1ed14e5c0a0"
     end
   end
   
