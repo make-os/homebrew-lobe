@@ -7,11 +7,11 @@ class Kit < Formula
 
   if OS.mac?
     url "https://github.com/make-os/kit/releases/download/v0.0.24/kit_0.0.24_Darwin_x86_64.tar.gz"
-    sha256 "a0680cc8fbd03150c66ee8a1e2daf17e19f8ab786189ed58eb2b0a8389247056"
+    sha256 "8e986c0d48a44a90088496b287771d02d2ce0995e7ad13dddcfdae68a12bccde"
   end
   if OS.linux? && Hardware::CPU.intel?
     url "https://github.com/make-os/kit/releases/download/v0.0.24/kit_0.0.24_Linux_x86_64.tar.gz"
-    sha256 "9453eedc157a4d05449322e6d834688fed9edcd7d723d62e771541b6564dfead"
+    sha256 "6be1db275012b2766eb140f83b60fe1734bc605c46caa605ea9df3e6b87b9290"
   end
 
   depends_on "git"
