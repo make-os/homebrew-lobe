@@ -2,16 +2,16 @@
 class Kit < Formula
   desc "A client for the MakeOS decentralized code collaboration network"
   homepage "https://makeos.org/"
-  version "0.0.26"
+  version "0.0.27"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/make-os/kit/releases/download/v0.0.26/kit_0.0.26_Darwin_x86_64.tar.gz"
-    sha256 "c716669261d34502872dda7e1f733fd4d35057eae44ea05690dff089aeb3d200"
+    url "https://github.com/make-os/kit/releases/download/v0.0.27/kit_0.0.27_Darwin_x86_64.tar.gz"
+    sha256 "128e058d563d55e20d846fe84e1190427d06312ba4d7321e44c8dd991e722448"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/make-os/kit/releases/download/v0.0.26/kit_0.0.26_Linux_x86_64.tar.gz"
-    sha256 "1375080c6f9b1ba3edb7c3ff113815db2dfe8bcbf11dbba77401e1241a0b4625"
+    url "https://github.com/make-os/kit/releases/download/v0.0.27/kit_0.0.27_Linux_x86_64.tar.gz"
+    sha256 "66dd43b6f4ad79febfb299a06fe5d83871c9393ecb4636b9c2d72a44b91a43bd"
   end
 
   depends_on "git"
